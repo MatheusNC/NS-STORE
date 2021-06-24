@@ -1,0 +1,39 @@
+.redimensionar {
+    width: 300px;
+    height: 400px;
+}
+
+.logo {
+    width: 60px;
+    height: 50px;
+}
+
+.separar {
+    padding-top: 20px;
+}
+
+.margem {
+    margin-top: 10px;
+}
+
+.ftproduto {
+    width: 287px;
+    height: 250px;
+}
+
+.centro {
+    margin-left: 2%;
+}
+
+.mapa {
+    width: 200px;
+    height: 150px;
+}
+
+.cor {
+    color: whitesmoke;
+}
+
+body {
+    font-family: Verdana, 'Times New Roman';
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>NS STORE</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark shadow-lg" style="background-color: rgb(128, 128, 128);">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/Logo white.png" class="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Carrinho</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Produtos
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Esportivos</a></li>
+                                    <li><a class="dropdown-item" href="#">Casuais</a></li>
+                                    <li><a class="dropdown-item" href="#">Street</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="container separar">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/foto1head.jpg" class="d-block w-100 redimensionar img-fluid" alt="Foto de tenis masculino">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Mistura de conforto e estilo</h5>
+                                <p>Melhor para o seu pé e moda.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="images/foto2head.jpg" class="d-block w-100 redimensionar img-fluid" alt="Foto de tenis feminino">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Chique sem precisar de salto</h5>
+                                <p>blablablabla.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="images/foto3head.jpg" class="d-block w-100 redimensionar img-fluid" alt="Foto de tenis colorido">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Centro das atenções</h5>
+                                <p>blebleblebleble.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="container-fluid separar">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/foto1head.jpg" class="card-img-top ftproduto" alt="Compra1">
+                            <div class="card-body">
+                                <h5 class="card-title">Tenis bonito</h5>
+                                <p class="card-text">R$ 420,00.</p>
+                                <button type="button" class="btn btn-primary">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/foto2head.jpg" class="card-img-top ftproduto img-fluid" alt="Compra2">
+                            <div class="card-body">
+                                <h5 class="card-title">Tenis esbelto</h5>
+                                <p class="card-text">R$ 390,00.</p>
+                                <button type="button" class="btn btn-primary">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/foto3head.jpg" class="card-img-top ftproduto img-fluid" alt="Compra3">
+                            <div class="card-body">
+                                <h5 class="card-title">Tenis colorido</h5>
+                                <p class="card-text">R$ 499,90.</p>
+                                <button type="button" class="btn btn-primary">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/Logo dark.png" class="card-img-top ftproduto img-fluid" alt="Sem estoque">
+                            <div class="card-body">
+                                <h5 class="card-title">Sem estoque</h5>
+                                <p class="card-text">R$ 0,00.</p>
+                                <button type="button" class="btn btn-primary">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container-fluid shadow-lg margem" style="background-color: rgb(128, 128, 128)">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="nav flex-column navbar-brand separar">
+                            <li class="nav-item">
+                                <a class="nav-link cor" aria-current="page" href="#">Telefone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link cor" href="">Endereço</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link cor" href="mailto:matheusmnc2002@gmail.com">Email</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <iframe class="separar mapa border-2"title="Mapa da minha casa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.72830870002!2d-47.82826350702027!3d-21.123395305497745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b995ec7cb6f7c3%3A0x1c8c0faa2a608a4!2sR.%20Maj.%20Altamiro%20Lima%2C%2095%20-%20Jardim%20Orestes%20Lopes%20de%20Camargo%2C%20Ribeir%C3%A3o%20Preto%20-%20SP%2C%2014066-406!5e0!3m2!1spt-BR!2sbr!4v1619122895151!5m2!1spt-BR!2sbr"></iframe>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
