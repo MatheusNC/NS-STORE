@@ -1,39 +1,54 @@
-.redimensionar {
-    width: 300px;
-    height: 400px;
-}
 
 .logo {
     width: 60px;
     height: 50px;
+    border-radius: 5px;
 }
 
 .separar {
     padding-top: 20px;
+    padding-bottom: 5px;
 }
 
-.margem {
-    margin-top: 10px;
+.pddBottom {
+    padding-bottom: 5px;
 }
 
-.ftproduto {
-    width: 287px;
-    height: 250px;
+.redimensionar {
+    width: 400px;
+    height: 214.5px;
 }
 
-.centro {
-    margin-left: 2%;
+.perfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.centraliza {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .mapa {
-    width: 200px;
-    height: 150px;
+    margin: auto;
 }
 
-.cor {
-    color: whitesmoke;
+button.alinhaBotao {
+    width: fit-content;
 }
 
 body {
     font-family: Verdana, 'Times New Roman';
+    background-color: rgb(202, 202, 202);
+}
+
+div.centralizaLista {
+    position: relative;
+    margin-left: 200px;
+}
+img.carrossel {
+    width: 800px;
+    height: 500px;
 }
